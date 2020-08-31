@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57576C9B75CF91138CEEC97 /* Pods_TWDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B2D566D2BD5DB75F49C3D5 /* Pods_TWDownloader.framework */; };
+		D49AD36624FDA15100767E61 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AD36524FDA15100767E61 /* ShareViewController.swift */; };
+		D49AD36924FDA15100767E61 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49AD36724FDA15100767E61 /* MainInterface.storyboard */; };
+		D49AD36D24FDA15100767E61 /* Download Video.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D49AD36324FDA15100767E61 /* Download Video.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D49AD37524FDAEAA00767E61 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AD37424FDAEAA00767E61 /* TableViewCell.swift */; };
+		D49AD37724FDB97D00767E61 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AD37624FDB97D00767E61 /* DetailVC.swift */; };
+		D49AD37824FDC38900767E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FC3BCE24FD30A90076072C /* Assets.xcassets */; };
+		D49AD37B24FDC44F00767E61 /* ShareAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49AD37924FDC44000767E61 /* ShareAssets.xcassets */; };
+		D4FC3BC624FD30A60076072C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC3BC524FD30A60076072C /* AppDelegate.swift */; };
+		D4FC3BCA24FD30A60076072C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC3BC924FD30A60076072C /* ViewController.swift */; };
+		D4FC3BCD24FD30A60076072C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FC3BCB24FD30A60076072C /* Main.storyboard */; };
+		D4FC3BCF24FD30A90076072C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FC3BCE24FD30A90076072C /* Assets.xcassets */; };
+		D4FC3BD224FD30A90076072C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FC3BD024FD30A90076072C /* LaunchScreen.storyboard */; };
+		D4FC3BED24FD56AD0076072C /* TweetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC3BEC24FD56AD0076072C /* TweetProvider.swift */; };
+		D4FC3BEF24FD58790076072C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC3BEE24FD58790076072C /* Tweet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49AD36B24FDA15100767E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4FC3BBA24FD30A60076072C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49AD36224FDA15100767E61;
+			remoteInfo = TWShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D49AD36E24FDA15100767E61 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D49AD36D24FDA15100767E61 /* Download Video.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64B88965FFCDC8F266A99CB3 /* Pods-TWDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWDownloader.release.xcconfig"; path = "Target Support Files/Pods-TWDownloader/Pods-TWDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		CAB7D01C6DF946257C37F733 /* Pods-TWDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWDownloader.debug.xcconfig"; path = "Target Support Files/Pods-TWDownloader/Pods-TWDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		D49AD36324FDA15100767E61 /* Download Video.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Download Video.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49AD36524FDA15100767E61 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		D49AD36824FDA15100767E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D49AD36A24FDA15100767E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49AD37224FDA16A00767E61 /* TWDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TWDownloader.entitlements; sourceTree = "<group>"; };
+		D49AD37324FDA18D00767E61 /* TWShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TWShare.entitlements; sourceTree = "<group>"; };
+		D49AD37424FDAEAA00767E61 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D49AD37624FDB97D00767E61 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		D49AD37924FDC44000767E61 /* ShareAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ShareAssets.xcassets; sourceTree = "<group>"; };
+		D4FC3BC224FD30A60076072C /* TWDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FC3BC524FD30A60076072C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4FC3BC924FD30A60076072C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4FC3BCC24FD30A60076072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4FC3BCE24FD30A90076072C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4FC3BD124FD30A90076072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4FC3BD324FD30A90076072C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FC3BEC24FD56AD0076072C /* TweetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetProvider.swift; sourceTree = "<group>"; };
+		D4FC3BEE24FD58790076072C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		F5B2D566D2BD5DB75F49C3D5 /* Pods_TWDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49AD36024FDA15100767E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FC3BBF24FD30A60076072C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57576C9B75CF91138CEEC97 /* Pods_TWDownloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB19291DD9B8308B5A4DA38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B2D566D2BD5DB75F49C3D5 /* Pods_TWDownloader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FDACF8856B18411F47A7425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7D01C6DF946257C37F733 /* Pods-TWDownloader.debug.xcconfig */,
+				64B88965FFCDC8F266A99CB3 /* Pods-TWDownloader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D49AD36424FDA15100767E61 /* TWShare */ = {
+			isa = PBXGroup;
+			children = (
+				D49AD37324FDA18D00767E61 /* TWShare.entitlements */,
+				D49AD36524FDA15100767E61 /* ShareViewController.swift */,
+				D49AD36724FDA15100767E61 /* MainInterface.storyboard */,
+				D49AD36A24FDA15100767E61 /* Info.plist */,
+				D49AD37924FDC44000767E61 /* ShareAssets.xcassets */,
+			);
+			path = TWShare;
+			sourceTree = "<group>";
+		};
+		D4FC3BB924FD30A60076072C = {
+			isa = PBXGroup;
+			children = (
+				D4FC3BC424FD30A60076072C /* TWDownloader */,
+				D49AD36424FDA15100767E61 /* TWShare */,
+				D4FC3BC324FD30A60076072C /* Products */,
+				8FDACF8856B18411F47A7425 /* Pods */,
+				7EB19291DD9B8308B5A4DA38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4FC3BC324FD30A60076072C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC3BC224FD30A60076072C /* TWDownloader.app */,
+				D49AD36324FDA15100767E61 /* Download Video.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4FC3BC424FD30A60076072C /* TWDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				D49AD37224FDA16A00767E61 /* TWDownloader.entitlements */,
+				D4FC3BC524FD30A60076072C /* AppDelegate.swift */,
+				D4FC3BC924FD30A60076072C /* ViewController.swift */,
+				D4FC3BCB24FD30A60076072C /* Main.storyboard */,
+				D4FC3BCE24FD30A90076072C /* Assets.xcassets */,
+				D4FC3BD024FD30A90076072C /* LaunchScreen.storyboard */,
+				D4FC3BD324FD30A90076072C /* Info.plist */,
+				D4FC3BEC24FD56AD0076072C /* TweetProvider.swift */,
+				D4FC3BEE24FD58790076072C /* Tweet.swift */,
+				D49AD37424FDAEAA00767E61 /* TableViewCell.swift */,
+				D49AD37624FDB97D00767E61 /* DetailVC.swift */,
+			);
+			path = TWDownloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49AD36224FDA15100767E61 /* Download Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49AD37124FDA15100767E61 /* Build configuration list for PBXNativeTarget "Download Video" */;
+			buildPhases = (
+				D49AD35F24FDA15100767E61 /* Sources */,
+				D49AD36024FDA15100767E61 /* Frameworks */,
+				D49AD36124FDA15100767E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Download Video";
+			productName = TWShare;
+			productReference = D49AD36324FDA15100767E61 /* Download Video.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D4FC3BC124FD30A60076072C /* TWDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4FC3BD624FD30A90076072C /* Build configuration list for PBXNativeTarget "TWDownloader" */;
+			buildPhases = (
+				1DF826B4990B5B43331BC827 /* [CP] Check Pods Manifest.lock */,
+				D4FC3BBE24FD30A60076072C /* Sources */,
+				D4FC3BBF24FD30A60076072C /* Frameworks */,
+				D4FC3BC024FD30A60076072C /* Resources */,
+				35B29257E82F027B4921B3E6 /* [CP] Embed Pods Frameworks */,
+				D49AD36E24FDA15100767E61 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49AD36C24FDA15100767E61 /* PBXTargetDependency */,
+			);
+			name = TWDownloader;
+			productName = TWDownloader;
+			productReference = D4FC3BC224FD30A60076072C /* TWDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4FC3BBA24FD30A60076072C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "David Ozmanyan";
+				TargetAttributes = {
+					D49AD36224FDA15100767E61 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D4FC3BC124FD30A60076072C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = D4FC3BBD24FD30A60076072C /* Build configuration list for PBXProject "TWDownloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4FC3BB924FD30A60076072C;
+			productRefGroup = D4FC3BC324FD30A60076072C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4FC3BC124FD30A60076072C /* TWDownloader */,
+				D49AD36224FDA15100767E61 /* Download Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49AD36124FDA15100767E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49AD37B24FDC44F00767E61 /* ShareAssets.xcassets in Resources */,
+				D49AD37824FDC38900767E61 /* Assets.xcassets in Resources */,
+				D49AD36924FDA15100767E61 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FC3BC024FD30A60076072C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FC3BD224FD30A90076072C /* LaunchScreen.storyboard in Resources */,
+				D4FC3BCF24FD30A90076072C /* Assets.xcassets in Resources */,
+				D4FC3BCD24FD30A60076072C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DF826B4990B5B43331BC827 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TWDownloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B29257E82F027B4921B3E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TWDownloader/Pods-TWDownloader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TWDownloader/Pods-TWDownloader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TWDownloader/Pods-TWDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49AD35F24FDA15100767E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49AD36624FDA15100767E61 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FC3BBE24FD30A60076072C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49AD37524FDAEAA00767E61 /* TableViewCell.swift in Sources */,
+				D4FC3BED24FD56AD0076072C /* TweetProvider.swift in Sources */,
+				D4FC3BCA24FD30A60076072C /* ViewController.swift in Sources */,
+				D4FC3BC624FD30A60076072C /* AppDelegate.swift in Sources */,
+				D4FC3BEF24FD58790076072C /* Tweet.swift in Sources */,
+				D49AD37724FDB97D00767E61 /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49AD36C24FDA15100767E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49AD36224FDA15100767E61 /* Download Video */;
+			targetProxy = D49AD36B24FDA15100767E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D49AD36724FDA15100767E61 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49AD36824FDA15100767E61 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		D4FC3BCB24FD30A60076072C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4FC3BCC24FD30A60076072C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4FC3BD024FD30A90076072C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4FC3BD124FD30A90076072C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49AD36F24FDA15100767E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = share;
+				CODE_SIGN_ENTITLEMENTS = TWShare/TWShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CKEB247XU;
+				INFOPLIST_FILE = TWShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidozmanyan.TWDownloader.TWShare;
+				PRODUCT_NAME = "Download Video";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D49AD37024FDA15100767E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = share;
+				CODE_SIGN_ENTITLEMENTS = TWShare/TWShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CKEB247XU;
+				INFOPLIST_FILE = TWShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidozmanyan.TWDownloader.TWShare;
+				PRODUCT_NAME = "Download Video";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D4FC3BD424FD30A90076072C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4FC3BD524FD30A90076072C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4FC3BD724FD30A90076072C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB7D01C6DF946257C37F733 /* Pods-TWDownloader.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TWDownloader/TWDownloader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CKEB247XU;
+				INFOPLIST_FILE = TWDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidozmanyan.TWDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4FC3BD824FD30A90076072C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B88965FFCDC8F266A99CB3 /* Pods-TWDownloader.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TWDownloader/TWDownloader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CKEB247XU;
+				INFOPLIST_FILE = TWDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = davidozmanyan.TWDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49AD37124FDA15100767E61 /* Build configuration list for PBXNativeTarget "Download Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49AD36F24FDA15100767E61 /* Debug */,
+				D49AD37024FDA15100767E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4FC3BBD24FD30A60076072C /* Build configuration list for PBXProject "TWDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FC3BD424FD30A90076072C /* Debug */,
+				D4FC3BD524FD30A90076072C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4FC3BD624FD30A90076072C /* Build configuration list for PBXNativeTarget "TWDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FC3BD724FD30A90076072C /* Debug */,
+				D4FC3BD824FD30A90076072C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4FC3BBA24FD30A60076072C /* Project object */;
+}
